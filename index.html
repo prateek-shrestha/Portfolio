@@ -16,7 +16,7 @@
     <nav class="navbar navbar-expand-lg bg-body-tertiary navbar-dark bg-dark">
       <div class="container-fluid navbar-fixed-top ">
         <a class="navbar-brand" href="#">
-          <img class="logo-control" src="img/logo.png" alt="my-logo" width="200px" height="130px" />
+          <img class="logo-control" src="img/logo.png" alt="my-logo" width="150px" height="100px" />
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -25,19 +25,19 @@
         <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
           <ul class="navbar-nav navbar-right">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#HOME" class="active">HOME</a>
+              <a class="nav-link active" aria-current="page" href="#home" class="active">HOME</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#about">ABOUT</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">PORTFOLIO</a>
+              <a class="nav-link" href="#portfolio">PORTFOLIO</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#skills">SKILLS</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">SERVICES</a>
+             <li class="nav-item">
+              <a class="nav-link" href="#Projects">PROJECT</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#contact">CONTACT</a>
@@ -64,47 +64,121 @@
           <script>
             var typed = new Typed("#element", {
               strings: [
-                "Web Developer",
-                "Web Designer",
+                 "Full Stack Developer",
                 "UI/UX Designer",
-                "Video Editor",
-                "Graphic Designer",
               ],
-              typeSpeed: 70,
+              typeSpeed: 30,
             });
           </script>
+          <div id="control-fb" class="col-sm-5 col-md-4 col-lg-3 fb-and-all text-left">
+            <ul class="list-inline mt-5">
+              <li class="list-inline-item"><a href="https://www.facebook.com/prateek.shrestha.338/"><i
+                    class="bi bi-facebook social-icon" aria-hidden="true"></i></a>
+              </li>
+              <li class="list-inline-item"><a href="https://x.com/Prateek504"><i
+                    class="bi bi-twitter social-icon" aria-hidden="true"></i></a>
+              </li>
+              <li class="list-inline-item"><a href="https://www.linkedin.com/in/prateek-shrestha000/"><i
+                    class="bi bi-linkedin social-icon" aria-hidden="true"></i></a>
+              </li>
+              <li class="list-inline-item"><a href="https://github.com/prateek-shrestha"><i class="bi bi-github social-icon"
+                    aria-hidden="true"></i></a>
+              </li>
+            </ul>
+          </div>
           <div class="btn-box">
             <a href="#" class="btn">Download Resume</a>
             <a href="#" class="btn">Hire Me</a>
           </div>
+
     </section>
 
     <div class="right-section">
-      <img class="my-border" src="img/profile.jpg" alt="my-man-banner" />
+      <img class="my-border" src="img/3.JPG" alt="Profile-Photo" />
     </div>
   </section>
   <hr size="2px">
   <!-- About-page-design  -->
-  <section class="about" id="about">
+  <hr>
+  <section class="about animation" id="about">
+
 
     <h2 class="heading-me">About <span>Me</span></h2>
     <div class="about-img">
-      <img src="img/web.jpg" alt="my-image" width="300px" height="300px">
+      <img src="img/about.jpg" alt="my-image" width="200px" height="200px">
       <span class="circle-spin"></span>
     </div>
     <div class="about-content">
-      <h3>Font-End-Developer!</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-        magna aliqua.
-        <br>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+      <h3><span>Full-Stack</span>Developer & <span>UI/UX</span>-Designer</h3>
+      <p>Hi, I'm Pratik Shrestha, a passionate Full-Stack Developer and UI/UX Designer with a <br> 
+        strong background in building user-centric digital experiences. I specialize in designing and developing <br> 
+        high-performing, scalable, and visually engaging web applications.
+        <br>
       </p>
     </div>
     <div class="btn-box btns">
-      <a href="#" class="btn">Read More</a>
+      <a href="#portfolio" class="btn">Read More</a>
     </div>
   </section>
+  <!-- portfolio-section-begins  -->
+  <secction class="portfolio animation" id="portfolio">
+    <h2 class="heading-me">Latest <span>Projects</span></h2>
+    <div class="portfolio-container">
+      <div class="portfolio-box">
+        <img src="img/a.jpg" alt="web-development">
+        <div class="portfolio-layer">
+          <h4>Web Design</h4>
+          <p>Web design refers to the user experience aspects of website development rather than software development. </p>
+          <a href="#"><i class="bi bi-box-arrow-up-right"></i></a>
+        </div>
+      </div>
+      <div class="portfolio-box">
+        <img src="img/app.jpg" alt="app-development">
+        <div class="portfolio-layer">
+          <h4>App Development</h4>
+          <p>Our service is to bring functionality, and user-friendliness to your mobile or web-based applications.</p>
+          <a href="#"><i class="bi bi-box-arrow-up-right"></i></a>
+        </div>
+      </div>
+      <div class="portfolio-box">
+        <img src="img/webd.jpg" alt="web-development">
+        <div class="portfolio-layer">
+          <h4>Web Development</h4>
+          <p>Our service is designed to create online solutions that are highly responsive and feature-rich.</p>
+          <a href="#"><i class="bi bi-box-arrow-up-right"></i></a>
+        </div>
+      </div>
+      <!-- <div class="portfolio-box">
+        <img src="img/c.jpg" alt="Content Writing">
+        <div class="portfolio-layer">
+          <h4>Content Writing</h4>
+          <p>Our service is dedicated to helping your brand stand out, engage your audience through well-crafted, tailored content.</p>
+          <a href="#"><i class="bi bi-box-arrow-up-right"></i></a>
+        </div>
+      </div>
+      <div class="portfolio-box">
+        <img src="img/dm.jpg" alt="Digital Marketing">
+        <div class="portfolio-layer">
+          <h4>Digital Marketing</h4>
+          <p>Launch campaigns at scale, analyze performance and optimize continually to maximize clicks and conversion.</p>
+          <a href="#"><i class="bi bi-box-arrow-up-right"></i></a>
+        </div>
+      </div>
+      <div class="portfolio-box">
+        <img src="img/food.jpg" alt="food-app-development">
+        <div class="portfolio-layer">
+          <h4>Food Delivery App</h4>
+          <p>Served a company by making a food delivery app from where the user can search the nearby restaurants and order the food.</p>
+          <a href="#"><i class="bi bi-box-arrow-up-right"></i></a>
+        </div>
+      </div> -->
+
+
+    </div>
+
+  </secction>
   <!-- Skills-section-page  -->
-  <section id="skills" class="skills">
+  <section id="skills" class="skills animation">
     <div class="container-fluid py-5" id="skill">
       <div class="container">
         <div class="position-relative d-flex align-items-center justify-content-center">
@@ -135,17 +209,17 @@
             </div>
             <div class="skill mb-4">
               <div class="d-flex justify-content-between">
-                <h6 class="font-weight-bold">PHP</h6>
-                <h6 class="font-weight-bold">90%</h6>
+                <h6 class="font-weight-bold">Docker</h6>
+                <h6 class="font-weight-bold">75%</h6>
               </div>
               <div class="progress">
-                <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="90" aria-valuemin="0"
-                  aria-valuemax="100" style="width: 90%;"></div>
+                <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="75" aria-valuemin="0"
+                  aria-valuemax="100" style="width: 75%;"></div>
               </div>
             </div>
             <div class="skill mb-4">
               <div class="d-flex justify-content-between">
-                <h6 class="font-weight-bold">Angular JS</h6>
+                <h6 class="font-weight-bold">C++</h6>
                 <h6 class="font-weight-bold">85%</h6>
               </div>
               <div class="progress">
@@ -160,7 +234,7 @@
               </div>
               <div class="progress">
                 <div class="progress-bar bg-warning" role="progressbar" aria-valuenow="85" aria-valuemin="0"
-                  aria-valuemax="100" style="width: 85%;"></div>
+                  aria-valuemax="100" style="width: 75%;"></div>
               </div>
             </div>
           </div>
@@ -187,7 +261,7 @@
             </div>
             <div class="skill mb-4">
               <div class="d-flex justify-content-between">
-                <h6 class="font-weight-bold">Laravel</h6>
+                <h6 class="font-weight-bold">PHP</h6>
                 <h6 class="font-weight-bold">40%</h6>
               </div>
               <div class="progress">
@@ -207,12 +281,12 @@
             </div>
             <div class="skill mb-4">
               <div class="d-flex justify-content-between">
-                <h6 class="font-weight-bold">MongoDB</h6>
-                <h6 class="font-weight-bold">85%</h6>
+                <h6 class="font-weight-bold">React</h6>
+                <h6 class="font-weight-bold">65%</h6>
               </div>
               <div class="progress">
-                <div class="progress-bar bg-info" role="progressbar" aria-valuenow="85" aria-valuemin="0"
-                  aria-valuemax="100" style="width: 85%;"></div>
+                <div class="progress-bar bg-info" role="progressbar" aria-valuenow="65" aria-valuemin="0"
+                  aria-valuemax="100" style="width: 65%;"></div>
               </div>
             </div>
           </div>
@@ -220,38 +294,77 @@
       </div>
     </div>
   </section>
+
+  <!-- service-section-starts-here -->
+  <!-- <section class="services animation" id="services">
+    <h2 class="heading-me">My <span>Services</span></h2>
+    <div class="services-container">
+      <div class="services-box">
+        <i class="bi bi-code-slash"></i>
+        <h3>Web Development</h3>
+        <p>Our web development services at Chetu can create your dream website. We design engaging and user-friendly
+          websites that improve the customer experience, we work with you to understand your business goals and
+          preferences.</p>
+        <a href="#" class="btn btn-primary">Read More</a>
+      </div>
+      <div class="services-box">
+        <i class="bi bi-bar-chart-fill"></i>
+        <h3>Digital Marketing</h3>
+        <p>Reach the right audience at the right time on the right platform. Launch campaigns at scale, analyze
+          performance and optimize continually to maximize clicks and conversion.</p>
+        <a href="#" class="btn btn-primary">Read More</a>
+      </div>
+      <div class="services-box">
+        <i class="bi bi-search"></i>
+        <h3>SEO</h3>
+        <p> You can optimize your website to rank for the key terms your audience uses to find brands like yours. Your
+          chosen SEO team will make sure your site is technically sound, is optimized for mobile search, hosts
+          high-quality content, and makes it easy for customers to buy.</p>
+        <a href="#" class="btn btn-primary">Read More</a>
+      </div>
+    </div>
+  </section> -->
+
+  <!-- services section ends here -->
   <!-- contact-section-starts-here  -->
-  <section class="contact" id="contact">
+  <section class="contact animation" id="contact">
     <div class="contact-me">
       <h2 class="heading-me">Contact <span>Me!</span></h2>
     </div>
     <div class="wrapper">
       <div class="col-md-4">
-         <div class="last-style">
+        <div class="last-style">
           <h3>Contact Info</h3>
-         </div>
-         <div class="wrap-up">
-         <div class="contact-content">
-         <i class="bi bi-geo-alt-fill"><strong>                 777, Rossellini-Drive, Mississauga, L5W 1M5</strong></i>
         </div>
-        <div class="contact-content-second">
-          <i class="bi bi-envelope-fill"><strong>                        Pratik.Shrestha@triosstudent.com</strong></i>
+        <div class="wrap-up">
+          <div class="contact-content">
+            <i class="bi bi-geo-alt-fill"><strong> 777, Jane-Street, Toronto, L5W 1M1</strong></i>
+          </div>
+          <div class="contact-content-second">
+            <i class="bi bi-envelope-fill"><strong> Pratik.Shrestha@triosstudent.com</strong></i>
+          </div>
+          <div class="contact-content-third">
+            <i class="bi bi-envelope-fill"></i> +1 437 661 6602
+          </div>
         </div>
-        <div class="contact-content-third">
-          <i class="bi bi-envelope-fill"></i>      +1 437 661 6602 
-         </div>
-        </div>
-         <div class="col-sm-5 col-md-4 col-lg-3 social-links text-left">
+        <div class="col-sm-5 col-md-4 col-lg-3 social-links text-left">
           <ul class="list-inline mt-5">
-             <li class="list-inline-item"><a href="#"><i class="bi bi-facebook social-icon" aria-hidden="true"></i></a></li>
-             <li class="list-inline-item"><a href="#"><i class="bi bi-twitter social-icon" aria-hidden="true"></i></a></li>
-             <li class="list-inline-item"><a href="#"><i class="bi bi-linkedin social-icon" aria-hidden="true"></i></a></li>
-             <li class="list-inline-item"><a href="#"><i class="bi bi-github social-icon" aria-hidden="true"></i></a></li>
+            <li class="list-inline-item"><a href="https://www.facebook.com/prateek.shrestha.338/"><i class="bi bi-facebook social-icon" aria-hidden="true"></i></a>
+            </li>
+            <li class="list-inline-item"><a href="https://twitter.com/prateekshrest17"><i class="bi bi-twitter social-icon" aria-hidden="true"></i></a>
+            </li>
+            <li class="list-inline-item"><a href="https://www.linkedin.com/in/pratik-shrestha-0843b428a/"><i class="bi bi-linkedin social-icon" aria-hidden="true"></i></a>
+            </li>
+            <li class="list-inline-item"><a href="https://github.com/I-am-Prateek"><i class="bi bi-github social-icon" aria-hidden="true"></i></a>
+            </li>
           </ul>
-      </div>
+        </div>
       </div>
       <div class="col-md-4">
-        <iframe class="map-control" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2887.326936886842!2d-79.7306007243435!3d43.64136585319694!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b3ff0769ef757%3A0xe57b4cfde802c73f!2sRossellini%20Dr%2C%20Mississauga%2C%20ON!5e0!3m2!1sen!2sca!4v1700144233820!5m2!1sen!2sca" width="380" height="350" style="border:0;"allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <iframe class="map-control"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2887.326936886842!2d-79.7306007243435!3d43.64136585319694!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b3ff0769ef757%3A0xe57b4cfde802c73f!2sRossellini%20Dr%2C%20Mississauga%2C%20ON!5e0!3m2!1sen!2sca!4v1700144233820!5m2!1sen!2sca"
+          width="380" height="350" style="border:0;" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
       </div>
       <div class="col-md-4">
         <h2 class="contact-control">Get In Touch!</h2>
@@ -281,6 +394,7 @@
     </div>
   </section>
   <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
 </body>
 
 </html>
